@@ -1,6 +1,81 @@
 TTableViewPull
-v7
+v5
 r1
+cCheck dependencies
+cCpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/ResourceRules.plist build/Debug-iphoneos/TableViewPull.app/ResourceRules.plist
+cProcessInfoPlistFile "/Users/luke/Git Projects/EGOTableViewPullRefresh/Demo/TableViewPull/build/Debug-iphoneos/TableViewPull.app/Info.plist" Resources/TableViewPull-Info.plist
+cCompileXIB "/Users/luke/Git Projects/EGOTableViewPullRefresh/Demo/TableViewPull/Resources/MainWindow.xib"
+cCompileXIB "/Users/luke/Git Projects/EGOTableViewPullRefresh/Demo/TableViewPull/Resources/RootViewController.xib"
+cCopyPNGFile "/Users/luke/Git Projects/EGOTableViewPullRefresh/Demo/TableViewPull/build/Debug-iphoneos/TableViewPull.app/blackArrow.png" Resources/blackArrow.png
+cCopyPNGFile "/Users/luke/Git Projects/EGOTableViewPullRefresh/Demo/TableViewPull/build/Debug-iphoneos/TableViewPull.app/blueArrow.png" Resources/blueArrow.png
+cCopyPNGFile "/Users/luke/Git Projects/EGOTableViewPullRefresh/Demo/TableViewPull/build/Debug-iphoneos/TableViewPull.app/blueArrow@2x.png" Resources/blueArrow@2x.png
+cCopyPNGFile "/Users/luke/Git Projects/EGOTableViewPullRefresh/Demo/TableViewPull/build/Debug-iphoneos/TableViewPull.app/grayArrow.png" Resources/grayArrow.png
+cCopyPNGFile "/Users/luke/Git Projects/EGOTableViewPullRefresh/Demo/TableViewPull/build/Debug-iphoneos/TableViewPull.app/whiteArrow@2x.png" Resources/whiteArrow@2x.png
+cCopyPNGFile "/Users/luke/Git Projects/EGOTableViewPullRefresh/Demo/TableViewPull/build/Debug-iphoneos/TableViewPull.app/whiteArrow.png" Resources/whiteArrow.png
+cCopyPNGFile "/Users/luke/Git Projects/EGOTableViewPullRefresh/Demo/TableViewPull/build/Debug-iphoneos/TableViewPull.app/grayArrow@2x.png" Resources/grayArrow@2x.png
+cCopyPNGFile "/Users/luke/Git Projects/EGOTableViewPullRefresh/Demo/TableViewPull/build/Debug-iphoneos/TableViewPull.app/blackArrow@2x.png" Resources/blackArrow@2x.png
+cProcessPCH /var/folders/yp/z9ztqk2n64xb6ndsckqtgjyh0000gr/C/com.apple.Xcode.504/SharedPrecompiledHeaders/TableViewPull_Prefix-eyzlesnvlhlpvudmyagwzxovzetv/TableViewPull_Prefix.pch.pth TableViewPull_Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/TableViewPull.build/Debug-iphoneos/TableViewPull.build/Objects-normal/armv7/EGORefreshTableHeaderView.o "/Users/luke/Git Projects/EGOTableViewPullRefresh/Demo/TableViewPull/Classes/View/RefreshTableHeaderView/EGORefreshTableHeaderView.m" normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/TableViewPull.build/Debug-iphoneos/TableViewPull.build/Objects-normal/armv7/RootViewController.o "/Users/luke/Git Projects/EGOTableViewPullRefresh/Demo/TableViewPull/Classes/Controller/RootViewController/RootViewController.m" normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/TableViewPull.build/Debug-iphoneos/TableViewPull.build/Objects-normal/armv7/TableViewPullAppDelegate.o "/Users/luke/Git Projects/EGOTableViewPullRefresh/Demo/TableViewPull/Classes/Delegate/TableViewPullAppDelegate.m" normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/TableViewPull.build/Debug-iphoneos/TableViewPull.build/Objects-normal/armv7/main.o "/Users/luke/Git Projects/EGOTableViewPullRefresh/Demo/TableViewPull/main.m" normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLd "/Users/luke/Git Projects/EGOTableViewPullRefresh/Demo/TableViewPull/build/Debug-iphoneos/TableViewPull.app/TableViewPull" normal armv7
+cGenerateDSYMFile "/Users/luke/Git Projects/EGOTableViewPullRefresh/Demo/TableViewPull/build/Debug-iphoneos/TableViewPull.app.dSYM" "/Users/luke/Git Projects/EGOTableViewPullRefresh/Demo/TableViewPull/build/Debug-iphoneos/TableViewPull.app/TableViewPull"
+cProcessProductPackaging "/Users/luke/Library/MobileDevice/Provisioning Profiles/0CC0B385-21C7-489C-BB13-7F99EC4B7465.mobileprovision" "/Users/luke/Git Projects/EGOTableViewPullRefresh/Demo/TableViewPull/build/Debug-iphoneos/TableViewPull.app/embedded.mobileprovision"
+cProcessProductPackaging "/Users/luke/Library/MobileDevice/Provisioning Profiles/0CC0B385-21C7-489C-BB13-7F99EC4B7465.mobileprovision" "/Users/luke/Git Projects/EGOTableViewPullRefresh/Demo/TableViewPull/build/Debug-iphoneos/TableViewPull.app/embedded.mobileprovision"
+cTouch "/Users/luke/Git Projects/EGOTableViewPullRefresh/Demo/TableViewPull/build/Debug-iphoneos/TableViewPull.app"
+cProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/Entitlements.plist "/Users/luke/Git Projects/EGOTableViewPullRefresh/Demo/TableViewPull/build/TableViewPull.build/Debug-iphoneos/TableViewPull.build/TableViewPull.xcent"
+cCodeSign "/Users/luke/Git Projects/EGOTableViewPullRefresh/Demo/TableViewPull/build/Debug-iphoneos/TableViewPull.app"
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk
+c000000004FE199660000000000000110
+t1340184934
+s272
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/Entitlements.plist
+c000000004F6C40BC00000000000001A7
+t1332494524
+s423
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/ResourceRules.plist
+c000000004F6C40BC00000000000001E5
+t1332494524
+s485
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004F6C40BD00000000003AE430
+t1332494525
+s3859504
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004F6C40BD000000000052C940
+t1332494525
+s5425472
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004F6C40BD0000000000001534
+t1332494525
+s5428
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
+c000000004F6C40BD0000000000175AA0
+t1332494525
+s1530528
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004F6C40BD0000000000000BF5
+t1332494525
+s3061
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004F6C40BE0000000000798EA0
+t1332494526
+s7966368
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/usr/include/Availability.h
+c000000004F6C40BF0000000000001B57
+t1332494527
+s6999
 
 N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk
 c000000004CCF6ECF0000000000000110
@@ -276,6 +351,197 @@ c000000004CC866160000000000001CF0
 t1288201750
 s7408
 
+N/Users/luke/Git Projects/EGOTableViewPullRefresh/Demo/TableViewPull/Classes/Controller/RootViewController/RootViewController.h
+c00000000501F6E7B000000000000067F
+t1344237179
+s1663
+
+N/Users/luke/Git Projects/EGOTableViewPullRefresh/Demo/TableViewPull/Classes/Controller/RootViewController/RootViewController.m
+c00000000501F6EF10000000000001112
+t1344237297
+s4370
+
+N/Users/luke/Git Projects/EGOTableViewPullRefresh/Demo/TableViewPull/Classes/Delegate/TableViewPullAppDelegate.h
+c00000000501F6EF100000000000005FD
+t1344237297
+s1533
+
+N/Users/luke/Git Projects/EGOTableViewPullRefresh/Demo/TableViewPull/Classes/Delegate/TableViewPullAppDelegate.m
+c00000000501F6EF10000000000000735
+t1344237297
+s1845
+
+N/Users/luke/Git Projects/EGOTableViewPullRefresh/Demo/TableViewPull/Classes/View/RefreshTableHeaderView/EGORefreshTableHeaderView.h
+c00000000501F6F44000000000000092A
+t1344237380
+s2346
+
+N/Users/luke/Git Projects/EGOTableViewPullRefresh/Demo/TableViewPull/Classes/View/RefreshTableHeaderView/EGORefreshTableHeaderView.m
+c00000000501F6EF10000000000001FCB
+t1344237297
+s8139
+
+N/Users/luke/Git Projects/EGOTableViewPullRefresh/Demo/TableViewPull/Resources/MainWindow.xib
+c00000000501F6E7B0000000000002C79
+t1344237179
+s11385
+
+N/Users/luke/Git Projects/EGOTableViewPullRefresh/Demo/TableViewPull/Resources/RootViewController.xib
+c00000000501F6E7B00000000000043CB
+t1344237179
+s17355
+
+N/Users/luke/Git Projects/EGOTableViewPullRefresh/Demo/TableViewPull/Resources/blackArrow.png
+c00000000501F6E7B00000000000010DC
+t1344237179
+s4316
+
+N/Users/luke/Git Projects/EGOTableViewPullRefresh/Demo/TableViewPull/Resources/blackArrow@2x.png
+c00000000501F6E7B0000000000000650
+t1344237179
+s1616
+
+N/Users/luke/Git Projects/EGOTableViewPullRefresh/Demo/TableViewPull/Resources/blueArrow.png
+c00000000501F6E7B000000000000118C
+t1344237179
+s4492
+
+N/Users/luke/Git Projects/EGOTableViewPullRefresh/Demo/TableViewPull/Resources/blueArrow@2x.png
+c00000000501F6E7B00000000000005F9
+t1344237179
+s1529
+
+N/Users/luke/Git Projects/EGOTableViewPullRefresh/Demo/TableViewPull/Resources/grayArrow.png
+c00000000501F6E7B000000000000077A
+t1344237179
+s1914
+
+N/Users/luke/Git Projects/EGOTableViewPullRefresh/Demo/TableViewPull/Resources/grayArrow@2x.png
+c00000000501F6E7B000000000000083D
+t1344237179
+s2109
+
+N/Users/luke/Git Projects/EGOTableViewPullRefresh/Demo/TableViewPull/Resources/whiteArrow.png
+c00000000501F6E7B0000000000001054
+t1344237179
+s4180
+
+N/Users/luke/Git Projects/EGOTableViewPullRefresh/Demo/TableViewPull/Resources/whiteArrow@2x.png
+c00000000501F6E7B0000000000000621
+t1344237179
+s1569
+
+N/Users/luke/Git Projects/EGOTableViewPullRefresh/Demo/TableViewPull/TableViewPull_Prefix.pch
+c00000000501F6E7B000000000000014C
+t1344237179
+s332
+i<Availability.h>
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/luke/Git Projects/EGOTableViewPullRefresh/Demo/TableViewPull/build/Debug-iphoneos/TableViewPull.app
+t1344237281
+s612
+
+N/Users/luke/Git Projects/EGOTableViewPullRefresh/Demo/TableViewPull/build/Debug-iphoneos/TableViewPull.app.dSYM
+t2
+s0
+
+N/Users/luke/Git Projects/EGOTableViewPullRefresh/Demo/TableViewPull/build/Debug-iphoneos/TableViewPull.app/Info.plist
+t1344237275
+s899
+
+N/Users/luke/Git Projects/EGOTableViewPullRefresh/Demo/TableViewPull/build/Debug-iphoneos/TableViewPull.app/MainWindow.nib
+t1344237275
+s1508
+
+N/Users/luke/Git Projects/EGOTableViewPullRefresh/Demo/TableViewPull/build/Debug-iphoneos/TableViewPull.app/PkgInfo
+t1344237275
+s8
+
+N/Users/luke/Git Projects/EGOTableViewPullRefresh/Demo/TableViewPull/build/Debug-iphoneos/TableViewPull.app/ResourceRules.plist
+t1344237275
+s485
+
+N/Users/luke/Git Projects/EGOTableViewPullRefresh/Demo/TableViewPull/build/Debug-iphoneos/TableViewPull.app/RootViewController.nib
+t1344237275
+s985
+
+N/Users/luke/Git Projects/EGOTableViewPullRefresh/Demo/TableViewPull/build/Debug-iphoneos/TableViewPull.app/TableViewPull
+t1344237281
+s0
+
+N/Users/luke/Git Projects/EGOTableViewPullRefresh/Demo/TableViewPull/build/Debug-iphoneos/TableViewPull.app/blackArrow.png
+t1344237275
+s4012
+
+N/Users/luke/Git Projects/EGOTableViewPullRefresh/Demo/TableViewPull/build/Debug-iphoneos/TableViewPull.app/blackArrow@2x.png
+t1344237275
+s1657
+
+N/Users/luke/Git Projects/EGOTableViewPullRefresh/Demo/TableViewPull/build/Debug-iphoneos/TableViewPull.app/blueArrow.png
+t1344237275
+s4190
+
+N/Users/luke/Git Projects/EGOTableViewPullRefresh/Demo/TableViewPull/build/Debug-iphoneos/TableViewPull.app/blueArrow@2x.png
+t1344237275
+s2173
+
+N/Users/luke/Git Projects/EGOTableViewPullRefresh/Demo/TableViewPull/build/Debug-iphoneos/TableViewPull.app/embedded.mobileprovision
+t1344237276
+s11326
+
+N/Users/luke/Git Projects/EGOTableViewPullRefresh/Demo/TableViewPull/build/Debug-iphoneos/TableViewPull.app/grayArrow.png
+t1344237275
+s2080
+
+N/Users/luke/Git Projects/EGOTableViewPullRefresh/Demo/TableViewPull/build/Debug-iphoneos/TableViewPull.app/grayArrow@2x.png
+t1344237275
+s2226
+
+N/Users/luke/Git Projects/EGOTableViewPullRefresh/Demo/TableViewPull/build/Debug-iphoneos/TableViewPull.app/whiteArrow.png
+t1344237275
+s4166
+
+N/Users/luke/Git Projects/EGOTableViewPullRefresh/Demo/TableViewPull/build/Debug-iphoneos/TableViewPull.app/whiteArrow@2x.png
+t1344237275
+s2304
+
+N/Users/luke/Git Projects/EGOTableViewPullRefresh/Demo/TableViewPull/build/TableViewPull.build/Debug-iphoneos/TableViewPull.build/Objects-normal/armv7/EGORefreshTableHeaderView.o
+t1344237280
+s20880
+
+N/Users/luke/Git Projects/EGOTableViewPullRefresh/Demo/TableViewPull/build/TableViewPull.build/Debug-iphoneos/TableViewPull.build/Objects-normal/armv7/RootViewController.o
+t1344237281
+s17124
+
+N/Users/luke/Git Projects/EGOTableViewPullRefresh/Demo/TableViewPull/build/TableViewPull.build/Debug-iphoneos/TableViewPull.build/Objects-normal/armv7/TableViewPull.LinkFileList
+c00000000501F6EDB00000000000002AB
+t1344237275
+s683
+
+N/Users/luke/Git Projects/EGOTableViewPullRefresh/Demo/TableViewPull/build/TableViewPull.build/Debug-iphoneos/TableViewPull.build/Objects-normal/armv7/TableViewPullAppDelegate.o
+t1344237280
+s8904
+
+N/Users/luke/Git Projects/EGOTableViewPullRefresh/Demo/TableViewPull/build/TableViewPull.build/Debug-iphoneos/TableViewPull.build/Objects-normal/armv7/main.o
+t1344237281
+s1188
+
+N/Users/luke/Git Projects/EGOTableViewPullRefresh/Demo/TableViewPull/build/TableViewPull.build/Debug-iphoneos/TableViewPull.build/TableViewPull.xcent
+t1344237276
+s432
+
+N/Users/luke/Git Projects/EGOTableViewPullRefresh/Demo/TableViewPull/main.m
+c00000000501F6EF10000000000000147
+t1344237297
+s327
+
+N/Users/luke/Library/MobileDevice/Provisioning Profiles/0CC0B385-21C7-489C-BB13-7F99EC4B7465.mobileprovision
+c000000004FFBA0C50000000000002C3E
+t1341890757
+s11326
+
 N/var/folders/EN/ENmrDakkEzOaao7-bah5i++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TableViewPull_Prefix-cswrzaqqbyqzxyfddadodzjsnmwy/TableViewPull_Prefix.pch.gch
 t2
 s0
@@ -284,13 +550,54 @@ N/var/folders/EN/ENmrDakkEzOaao7-bah5i++++TI/-Caches-/com.apple.Xcode.501/Shared
 t2
 s0
 
+N/var/folders/yp/z9ztqk2n64xb6ndsckqtgjyh0000gr/C/com.apple.Xcode.504/SharedPrecompiledHeaders/TableViewPull_Prefix-bdfaujrmxsbzuqcxlkfbleciqoto/TableViewPull_Prefix.pch.pth
+t1344237276
+s3973076
+
+N/var/folders/yp/z9ztqk2n64xb6ndsckqtgjyh0000gr/C/com.apple.Xcode.504/SharedPrecompiledHeaders/TableViewPull_Prefix-bhbgvkflpdewmlastzcxcjnybxfq/TableViewPull_Prefix.pch.pth
+t1344237279
+s3973076
+
+N/var/folders/yp/z9ztqk2n64xb6ndsckqtgjyh0000gr/C/com.apple.Xcode.504/SharedPrecompiledHeaders/TableViewPull_Prefix-ccujqiyehybqtreuqqeaephrbnog/TableViewPull_Prefix.pch.pth
+t2
+s0
+
+N/var/folders/yp/z9ztqk2n64xb6ndsckqtgjyh0000gr/C/com.apple.Xcode.504/SharedPrecompiledHeaders/TableViewPull_Prefix-eyzlesnvlhlpvudmyagwzxovzetv/TableViewPull_Prefix.pch.pth
+t2
+s0
+
 NResources/TableViewPull-Info.plist
-c000000004CFA9738000000000000038D
-t1291491128
+c00000000501F6E7B000000000000038D
+t1344237179
 s909
+
+CBuild AST from "/Users/luke/Git Projects/EGOTableViewPullRefresh/Demo/TableViewPull/Classes/Controller/RootViewController/RootViewController.m"
+r0
+
+CBuild AST from "/Users/luke/Git Projects/EGOTableViewPullRefresh/Demo/TableViewPull/Classes/Delegate/TableViewPullAppDelegate.m"
+r0
+
+CBuild AST from "/Users/luke/Git Projects/EGOTableViewPullRefresh/Demo/TableViewPull/Classes/View/RefreshTableHeaderView/EGORefreshTableHeaderView.m"
+r0
+
+CBuild AST from "/Users/luke/Git Projects/EGOTableViewPullRefresh/Demo/TableViewPull/main.m"
+r0
+
+CCheck dependencies
+r0
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependenciesed477ad8a6cfb541^ec1586d8a6cfb541^---0#1#0#--18"Check dependencies36"AE2F3715-3059-4309-82A8-3D7F07675324-
 
 CCodeSign "/Users/devin/Documents/iOS Dev/EGOTableViewPullRefresh/Demo/TableViewPull/build/Debug-iphoneos/TableViewPull.app"
 r0
+
+CCodeSign "/Users/luke/Git Projects/EGOTableViewPullRefresh/Demo/TableViewPull/build/Debug-iphoneos/TableViewPull.app"
+s365930201.389483
+e365930201.688213
+r1
+xCodeSign
+x/Users/luke/Git Projects/EGOTableViewPullRefresh/Demo/TableViewPull/build/Debug-iphoneos/TableViewPull.app
+o/Users/luke/Git Projects/EGOTableViewPullRefresh/Demo/TableViewPull/build/Debug-iphoneos/TableViewPull.app: replacing existing signature
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection47"CodeSign build/Debug-iphoneos/TableViewPull.app07d063d9a6cfb541^cb2eb0d9a6cfb541^-137"/Users/luke/Git Projects/EGOTableViewPullRefresh/Demo/TableViewPull/build/Debug-iphoneos/TableViewPull.app: replacing existing signature-0#0#0#-19%DVTDocumentLocation2@125"file://localhost/Users/luke/Git%20Projects/EGOTableViewPullRefresh/Demo/TableViewPull/build/Debug-iphoneos/TableViewPull.app/0000000000000000^948"CodeSign build/Debug-iphoneos/TableViewPull.app    cd "/Users/luke/Git Projects/EGOTableViewPullRefresh/Demo/TableViewPull"    setenv CODESIGN_ALLOCATE /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/codesign --force --sign 38d4f3399927ab0ca3b1fb08bf4979ed9847105b "--resource-rules=/Users/luke/Git Projects/EGOTableViewPullRefresh/Demo/TableViewPull/build/Debug-iphoneos/TableViewPull.app/ResourceRules.plist" --entitlements "/Users/luke/Git Projects/EGOTableViewPullRefresh/Demo/TableViewPull/build/TableViewPull.build/Debug-iphoneos/TableViewPull.build/TableViewPull.xcent" "/Users/luke/Git Projects/EGOTableViewPullRefresh/Demo/TableViewPull/build/Debug-iphoneos/TableViewPull.app"36"D03E735C-CD7A-4A8C-BA29-38EC764EE2E4-
 
 CCompileC build/TableViewPull.build/Debug-iphoneos/TableViewPull.build/Objects-normal/armv6/EGORefreshTableHeaderView.o "/Users/devin/Documents/iOS Dev/EGOTableViewPullRefresh/Demo/TableViewPull/Classes/View/RefreshTableHeaderView/EGORefreshTableHeaderView.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
 r0
@@ -307,20 +614,88 @@ r0
 CCompileC build/TableViewPull.build/Debug-iphoneos/TableViewPull.build/Objects-normal/armv7/EGORefreshTableHeaderView.o "/Users/devin/Documents/iOS Dev/EGOTableViewPullRefresh/Demo/TableViewPull/Classes/View/RefreshTableHeaderView/EGORefreshTableHeaderView.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
 r0
 
+CCompileC build/TableViewPull.build/Debug-iphoneos/TableViewPull.build/Objects-normal/armv7/EGORefreshTableHeaderView.o "/Users/luke/Git Projects/EGOTableViewPullRefresh/Demo/TableViewPull/Classes/View/RefreshTableHeaderView/EGORefreshTableHeaderView.m" normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s365930200.841221
+e365930200.959242
+r1
+xCompileC
+xbuild/TableViewPull.build/Debug-iphoneos/TableViewPull.build/Objects-normal/armv7/EGORefreshTableHeaderView.o
+x/Users/luke/Git Projects/EGOTableViewPullRefresh/Demo/TableViewPull/Classes/View/RefreshTableHeaderView/EGORefreshTableHeaderView.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection139"Compile /Users/luke/Git Projects/EGOTableViewPullRefresh/Demo/TableViewPull/Classes/View/RefreshTableHeaderView/EGORefreshTableHeaderView.mb37ad7d8a6cfb541^7e90f5d8a6cfb541^---0#0#0#-19%DVTDocumentLocation2@149"file://localhost/Users/luke/Git%20Projects/EGOTableViewPullRefresh/Demo/TableViewPull/Classes/View/RefreshTableHeaderView/EGORefreshTableHeaderView.m0000000000000000^3745"CompileC build/TableViewPull.build/Debug-iphoneos/TableViewPull.build/Objects-normal/armv7/EGORefreshTableHeaderView.o Classes/View/RefreshTableHeaderView/EGORefreshTableHeaderView.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/luke/Git Projects/EGOTableViewPullRefresh/Demo/TableViewPull"    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-conversion -Wno-sign-conversion -mthumb "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=3.0 -iquote "/Users/luke/Git Projects/EGOTableViewPullRefresh/Demo/TableViewPull/build/TableViewPull.build/Debug-iphoneos/TableViewPull.build/TableViewPull-generated-files.hmap" "-I/Users/luke/Git Projects/EGOTableViewPullRefresh/Demo/TableViewPull/build/TableViewPull.build/Debug-iphoneos/TableViewPull.build/TableViewPull-own-target-headers.hmap" "-I/Users/luke/Git Projects/EGOTableViewPullRefresh/Demo/TableViewPull/build/TableViewPull.build/Debug-iphoneos/TableViewPull.build/TableViewPull-all-target-headers.hmap" -iquote "/Users/luke/Git Projects/EGOTableViewPullRefresh/Demo/TableViewPull/build/TableViewPull.build/Debug-iphoneos/TableViewPull.build/TableViewPull-project-headers.hmap" "-I/Users/luke/Git Projects/EGOTableViewPullRefresh/Demo/TableViewPull/build/Debug-iphoneos/include" "-I/Users/luke/Git Projects/EGOTableViewPullRefresh/Demo/TableViewPull/build/TableViewPull.build/Debug-iphoneos/TableViewPull.build/DerivedSources/armv7" "-I/Users/luke/Git Projects/EGOTableViewPullRefresh/Demo/TableViewPull/build/TableViewPull.build/Debug-iphoneos/TableViewPull.build/DerivedSources" "-F/Users/luke/Git Projects/EGOTableViewPullRefresh/Demo/TableViewPull/build/Debug-iphoneos" -include /var/folders/yp/z9ztqk2n64xb6ndsckqtgjyh0000gr/C/com.apple.Xcode.504/SharedPrecompiledHeaders/TableViewPull_Prefix-eyzlesnvlhlpvudmyagwzxovzetv/TableViewPull_Prefix.pch -MMD -MT dependencies -MF "/Users/luke/Git Projects/EGOTableViewPullRefresh/Demo/TableViewPull/build/TableViewPull.build/Debug-iphoneos/TableViewPull.build/Objects-normal/armv7/EGORefreshTableHeaderView.d" --serialize-diagnostics "/Users/luke/Git Projects/EGOTableViewPullRefresh/Demo/TableViewPull/build/TableViewPull.build/Debug-iphoneos/TableViewPull.build/Objects-normal/armv7/EGORefreshTableHeaderView.dia" -c "/Users/luke/Git Projects/EGOTableViewPullRefresh/Demo/TableViewPull/Classes/View/RefreshTableHeaderView/EGORefreshTableHeaderView.m" -o "/Users/luke/Git Projects/EGOTableViewPullRefresh/Demo/TableViewPull/build/TableViewPull.build/Debug-iphoneos/TableViewPull.build/Objects-normal/armv7/EGORefreshTableHeaderView.o"36"2556D32F-7EA1-4692-8338-DC01FE1623FA-
+
 CCompileC build/TableViewPull.build/Debug-iphoneos/TableViewPull.build/Objects-normal/armv7/RootViewController.o "/Users/devin/Documents/iOS Dev/EGOTableViewPullRefresh/Demo/TableViewPull/Classes/Controller/RootViewController/RootViewController.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
 r0
+
+CCompileC build/TableViewPull.build/Debug-iphoneos/TableViewPull.build/Objects-normal/armv7/RootViewController.o "/Users/luke/Git Projects/EGOTableViewPullRefresh/Demo/TableViewPull/Classes/Controller/RootViewController/RootViewController.m" normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s365930200.841233
+e365930200.930494
+r1
+xCompileC
+xbuild/TableViewPull.build/Debug-iphoneos/TableViewPull.build/Objects-normal/armv7/RootViewController.o
+x/Users/luke/Git Projects/EGOTableViewPullRefresh/Demo/TableViewPull/Classes/Controller/RootViewController/RootViewController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection134"Compile /Users/luke/Git Projects/EGOTableViewPullRefresh/Demo/TableViewPull/Classes/Controller/RootViewController/RootViewController.mc07bd7d8a6cfb541^7634eed8a6cfb541^---0#0#0#-19%DVTDocumentLocation2@144"file://localhost/Users/luke/Git%20Projects/EGOTableViewPullRefresh/Demo/TableViewPull/Classes/Controller/RootViewController/RootViewController.m0000000000000000^3707"CompileC build/TableViewPull.build/Debug-iphoneos/TableViewPull.build/Objects-normal/armv7/RootViewController.o Classes/Controller/RootViewController/RootViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/luke/Git Projects/EGOTableViewPullRefresh/Demo/TableViewPull"    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-conversion -Wno-sign-conversion -mthumb "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=3.0 -iquote "/Users/luke/Git Projects/EGOTableViewPullRefresh/Demo/TableViewPull/build/TableViewPull.build/Debug-iphoneos/TableViewPull.build/TableViewPull-generated-files.hmap" "-I/Users/luke/Git Projects/EGOTableViewPullRefresh/Demo/TableViewPull/build/TableViewPull.build/Debug-iphoneos/TableViewPull.build/TableViewPull-own-target-headers.hmap" "-I/Users/luke/Git Projects/EGOTableViewPullRefresh/Demo/TableViewPull/build/TableViewPull.build/Debug-iphoneos/TableViewPull.build/TableViewPull-all-target-headers.hmap" -iquote "/Users/luke/Git Projects/EGOTableViewPullRefresh/Demo/TableViewPull/build/TableViewPull.build/Debug-iphoneos/TableViewPull.build/TableViewPull-project-headers.hmap" "-I/Users/luke/Git Projects/EGOTableViewPullRefresh/Demo/TableViewPull/build/Debug-iphoneos/include" "-I/Users/luke/Git Projects/EGOTableViewPullRefresh/Demo/TableViewPull/build/TableViewPull.build/Debug-iphoneos/TableViewPull.build/DerivedSources/armv7" "-I/Users/luke/Git Projects/EGOTableViewPullRefresh/Demo/TableViewPull/build/TableViewPull.build/Debug-iphoneos/TableViewPull.build/DerivedSources" "-F/Users/luke/Git Projects/EGOTableViewPullRefresh/Demo/TableViewPull/build/Debug-iphoneos" -include /var/folders/yp/z9ztqk2n64xb6ndsckqtgjyh0000gr/C/com.apple.Xcode.504/SharedPrecompiledHeaders/TableViewPull_Prefix-eyzlesnvlhlpvudmyagwzxovzetv/TableViewPull_Prefix.pch -MMD -MT dependencies -MF "/Users/luke/Git Projects/EGOTableViewPullRefresh/Demo/TableViewPull/build/TableViewPull.build/Debug-iphoneos/TableViewPull.build/Objects-normal/armv7/RootViewController.d" --serialize-diagnostics "/Users/luke/Git Projects/EGOTableViewPullRefresh/Demo/TableViewPull/build/TableViewPull.build/Debug-iphoneos/TableViewPull.build/Objects-normal/armv7/RootViewController.dia" -c "/Users/luke/Git Projects/EGOTableViewPullRefresh/Demo/TableViewPull/Classes/Controller/RootViewController/RootViewController.m" -o "/Users/luke/Git Projects/EGOTableViewPullRefresh/Demo/TableViewPull/build/TableViewPull.build/Debug-iphoneos/TableViewPull.build/Objects-normal/armv7/RootViewController.o"36"9A590504-8D64-48A5-9680-A88974EADD4B-
 
 CCompileC build/TableViewPull.build/Debug-iphoneos/TableViewPull.build/Objects-normal/armv7/TableViewPullAppDelegate.o "/Users/devin/Documents/iOS Dev/EGOTableViewPullRefresh/Demo/TableViewPull/Classes/Delegate/TableViewPullAppDelegate.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
 r0
 
+CCompileC build/TableViewPull.build/Debug-iphoneos/TableViewPull.build/Objects-normal/armv7/TableViewPullAppDelegate.o "/Users/luke/Git Projects/EGOTableViewPullRefresh/Demo/TableViewPull/Classes/Delegate/TableViewPullAppDelegate.m" normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s365930200.841244
+e365930200.916564
+r1
+xCompileC
+xbuild/TableViewPull.build/Debug-iphoneos/TableViewPull.build/Objects-normal/armv7/TableViewPullAppDelegate.o
+x/Users/luke/Git Projects/EGOTableViewPullRefresh/Demo/TableViewPull/Classes/Delegate/TableViewPullAppDelegate.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection119"Compile /Users/luke/Git Projects/EGOTableViewPullRefresh/Demo/TableViewPull/Classes/Delegate/TableViewPullAppDelegate.m4580d7d8a6cfb541^87a4ead8a6cfb541^---0#0#0#-19%DVTDocumentLocation2@129"file://localhost/Users/luke/Git%20Projects/EGOTableViewPullRefresh/Demo/TableViewPull/Classes/Delegate/TableViewPullAppDelegate.m0000000000000000^3701"CompileC build/TableViewPull.build/Debug-iphoneos/TableViewPull.build/Objects-normal/armv7/TableViewPullAppDelegate.o Classes/Delegate/TableViewPullAppDelegate.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/luke/Git Projects/EGOTableViewPullRefresh/Demo/TableViewPull"    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-conversion -Wno-sign-conversion -mthumb "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=3.0 -iquote "/Users/luke/Git Projects/EGOTableViewPullRefresh/Demo/TableViewPull/build/TableViewPull.build/Debug-iphoneos/TableViewPull.build/TableViewPull-generated-files.hmap" "-I/Users/luke/Git Projects/EGOTableViewPullRefresh/Demo/TableViewPull/build/TableViewPull.build/Debug-iphoneos/TableViewPull.build/TableViewPull-own-target-headers.hmap" "-I/Users/luke/Git Projects/EGOTableViewPullRefresh/Demo/TableViewPull/build/TableViewPull.build/Debug-iphoneos/TableViewPull.build/TableViewPull-all-target-headers.hmap" -iquote "/Users/luke/Git Projects/EGOTableViewPullRefresh/Demo/TableViewPull/build/TableViewPull.build/Debug-iphoneos/TableViewPull.build/TableViewPull-project-headers.hmap" "-I/Users/luke/Git Projects/EGOTableViewPullRefresh/Demo/TableViewPull/build/Debug-iphoneos/include" "-I/Users/luke/Git Projects/EGOTableViewPullRefresh/Demo/TableViewPull/build/TableViewPull.build/Debug-iphoneos/TableViewPull.build/DerivedSources/armv7" "-I/Users/luke/Git Projects/EGOTableViewPullRefresh/Demo/TableViewPull/build/TableViewPull.build/Debug-iphoneos/TableViewPull.build/DerivedSources" "-F/Users/luke/Git Projects/EGOTableViewPullRefresh/Demo/TableViewPull/build/Debug-iphoneos" -include /var/folders/yp/z9ztqk2n64xb6ndsckqtgjyh0000gr/C/com.apple.Xcode.504/SharedPrecompiledHeaders/TableViewPull_Prefix-eyzlesnvlhlpvudmyagwzxovzetv/TableViewPull_Prefix.pch -MMD -MT dependencies -MF "/Users/luke/Git Projects/EGOTableViewPullRefresh/Demo/TableViewPull/build/TableViewPull.build/Debug-iphoneos/TableViewPull.build/Objects-normal/armv7/TableViewPullAppDelegate.d" --serialize-diagnostics "/Users/luke/Git Projects/EGOTableViewPullRefresh/Demo/TableViewPull/build/TableViewPull.build/Debug-iphoneos/TableViewPull.build/Objects-normal/armv7/TableViewPullAppDelegate.dia" -c "/Users/luke/Git Projects/EGOTableViewPullRefresh/Demo/TableViewPull/Classes/Delegate/TableViewPullAppDelegate.m" -o "/Users/luke/Git Projects/EGOTableViewPullRefresh/Demo/TableViewPull/build/TableViewPull.build/Debug-iphoneos/TableViewPull.build/Objects-normal/armv7/TableViewPullAppDelegate.o"36"0B007F23-3A52-435B-A4C4-34FD632E0FB2-
+
 CCompileC build/TableViewPull.build/Debug-iphoneos/TableViewPull.build/Objects-normal/armv7/main.o "/Users/devin/Documents/iOS Dev/EGOTableViewPullRefresh/Demo/TableViewPull/main.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
 r0
+
+CCompileC build/TableViewPull.build/Debug-iphoneos/TableViewPull.build/Objects-normal/armv7/main.o "/Users/luke/Git Projects/EGOTableViewPullRefresh/Demo/TableViewPull/main.m" normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s365930200.841261
+e365930200.871450
+r1
+xCompileC
+xbuild/TableViewPull.build/Debug-iphoneos/TableViewPull.build/Objects-normal/armv7/main.o
+x/Users/luke/Git Projects/EGOTableViewPullRefresh/Demo/TableViewPull/main.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection82"Compile /Users/luke/Git Projects/EGOTableViewPullRefresh/Demo/TableViewPull/main.mb681d7d8a6cfb541^0517dfd8a6cfb541^---0#0#0#-19%DVTDocumentLocation2@92"file://localhost/Users/luke/Git%20Projects/EGOTableViewPullRefresh/Demo/TableViewPull/main.m0000000000000000^3547"CompileC build/TableViewPull.build/Debug-iphoneos/TableViewPull.build/Objects-normal/armv7/main.o main.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/luke/Git Projects/EGOTableViewPullRefresh/Demo/TableViewPull"    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-conversion -Wno-sign-conversion -mthumb "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=3.0 -iquote "/Users/luke/Git Projects/EGOTableViewPullRefresh/Demo/TableViewPull/build/TableViewPull.build/Debug-iphoneos/TableViewPull.build/TableViewPull-generated-files.hmap" "-I/Users/luke/Git Projects/EGOTableViewPullRefresh/Demo/TableViewPull/build/TableViewPull.build/Debug-iphoneos/TableViewPull.build/TableViewPull-own-target-headers.hmap" "-I/Users/luke/Git Projects/EGOTableViewPullRefresh/Demo/TableViewPull/build/TableViewPull.build/Debug-iphoneos/TableViewPull.build/TableViewPull-all-target-headers.hmap" -iquote "/Users/luke/Git Projects/EGOTableViewPullRefresh/Demo/TableViewPull/build/TableViewPull.build/Debug-iphoneos/TableViewPull.build/TableViewPull-project-headers.hmap" "-I/Users/luke/Git Projects/EGOTableViewPullRefresh/Demo/TableViewPull/build/Debug-iphoneos/include" "-I/Users/luke/Git Projects/EGOTableViewPullRefresh/Demo/TableViewPull/build/TableViewPull.build/Debug-iphoneos/TableViewPull.build/DerivedSources/armv7" "-I/Users/luke/Git Projects/EGOTableViewPullRefresh/Demo/TableViewPull/build/TableViewPull.build/Debug-iphoneos/TableViewPull.build/DerivedSources" "-F/Users/luke/Git Projects/EGOTableViewPullRefresh/Demo/TableViewPull/build/Debug-iphoneos" -include /var/folders/yp/z9ztqk2n64xb6ndsckqtgjyh0000gr/C/com.apple.Xcode.504/SharedPrecompiledHeaders/TableViewPull_Prefix-eyzlesnvlhlpvudmyagwzxovzetv/TableViewPull_Prefix.pch -MMD -MT dependencies -MF "/Users/luke/Git Projects/EGOTableViewPullRefresh/Demo/TableViewPull/build/TableViewPull.build/Debug-iphoneos/TableViewPull.build/Objects-normal/armv7/main.d" --serialize-diagnostics "/Users/luke/Git Projects/EGOTableViewPullRefresh/Demo/TableViewPull/build/TableViewPull.build/Debug-iphoneos/TableViewPull.build/Objects-normal/armv7/main.dia" -c "/Users/luke/Git Projects/EGOTableViewPullRefresh/Demo/TableViewPull/main.m" -o "/Users/luke/Git Projects/EGOTableViewPullRefresh/Demo/TableViewPull/build/TableViewPull.build/Debug-iphoneos/TableViewPull.build/Objects-normal/armv7/main.o"36"25F37C7C-6706-4B16-86B4-A05A465216E6-
 
 CCompileXIB "/Users/devin/Documents/iOS Dev/EGOTableViewPullRefresh/Demo/TableViewPull/Resources/MainWindow.xib"
 r0
 
 CCompileXIB "/Users/devin/Documents/iOS Dev/EGOTableViewPullRefresh/Demo/TableViewPull/Resources/RootViewController.xib"
 r0
+
+CCompileXIB "/Users/luke/Git Projects/EGOTableViewPullRefresh/Demo/TableViewPull/Resources/MainWindow.xib"
+s365930075.499989
+e365930075.576954
+r1
+xCompileXIB
+x/Users/luke/Git Projects/EGOTableViewPullRefresh/Demo/TableViewPull/Resources/MainWindow.xib
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection102"Compiling /Users/luke/Git Projects/EGOTableViewPullRefresh/Demo/TableViewPull/Resources/MainWindow.xib5e11805ba6cfb541^aed8935ba6cfb541^---0#0#0#-19%DVTDocumentLocation2@110"file://localhost/Users/luke/Git%20Projects/EGOTableViewPullRefresh/Demo/TableViewPull/Resources/MainWindow.xib0000000000000000^905"CompileXIB Resources/MainWindow.xib    cd "/Users/luke/Git Projects/EGOTableViewPullRefresh/Demo/TableViewPull"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.0    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv XCODE_DEVELOPER_USR_PATH /Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/luke/Git Projects/EGOTableViewPullRefresh/Demo/TableViewPull/build/Debug-iphoneos/TableViewPull.app/MainWindow.nib" "/Users/luke/Git Projects/EGOTableViewPullRefresh/Demo/TableViewPull/Resources/MainWindow.xib" --sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk36"82C0CF9F-492B-4C75-BAFF-57B7A07E9751-
+
+CCompileXIB "/Users/luke/Git Projects/EGOTableViewPullRefresh/Demo/TableViewPull/Resources/RootViewController.xib"
+s365930075.499992
+e365930075.575527
+r1
+xCompileXIB
+x/Users/luke/Git Projects/EGOTableViewPullRefresh/Demo/TableViewPull/Resources/RootViewController.xib
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection110"Compiling /Users/luke/Git Projects/EGOTableViewPullRefresh/Demo/TableViewPull/Resources/RootViewController.xib4d11805ba6cfb541^ea5e935ba6cfb541^---0#0#0#-19%DVTDocumentLocation2@118"file://localhost/Users/luke/Git%20Projects/EGOTableViewPullRefresh/Demo/TableViewPull/Resources/RootViewController.xib0000000000000000^929"CompileXIB Resources/RootViewController.xib    cd "/Users/luke/Git Projects/EGOTableViewPullRefresh/Demo/TableViewPull"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.0    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv XCODE_DEVELOPER_USR_PATH /Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/luke/Git Projects/EGOTableViewPullRefresh/Demo/TableViewPull/build/Debug-iphoneos/TableViewPull.app/RootViewController.nib" "/Users/luke/Git Projects/EGOTableViewPullRefresh/Demo/TableViewPull/Resources/RootViewController.xib" --sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk36"5FB5D65F-8634-47AD-8AE5-2B1ADDD53CB1-
 
 CCopyPNGFile "/Users/devin/Documents/iOS Dev/EGOTableViewPullRefresh/Demo/TableViewPull/build/Debug-iphoneos/TableViewPull.app/blackArrow.png" Resources/blackArrow.png
 r0
@@ -346,6 +721,87 @@ r0
 CCopyPNGFile "/Users/devin/Documents/iOS Dev/EGOTableViewPullRefresh/Demo/TableViewPull/build/Debug-iphoneos/TableViewPull.app/whiteArrow@2x.png" Resources/whiteArrow@2x.png
 r0
 
+CCopyPNGFile "/Users/luke/Git Projects/EGOTableViewPullRefresh/Demo/TableViewPull/build/Debug-iphoneos/TableViewPull.app/blackArrow.png" Resources/blackArrow.png
+s365930075.499986
+e365930075.631310
+r1
+xCopyPNGFile
+x/Users/luke/Git Projects/EGOTableViewPullRefresh/Demo/TableViewPull/build/Debug-iphoneos/TableViewPull.app/blackArrow.png
+xResources/blackArrow.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection90"CopyPNGFile build/Debug-iphoneos/TableViewPull.app/blackArrow.png Resources/blackArrow.png340f805ba6cfb541^999da15ba6cfb541^---0#0#0#-19%DVTDocumentLocation2@110"file://localhost/Users/luke/Git%20Projects/EGOTableViewPullRefresh/Demo/TableViewPull/Resources/blackArrow.png0000000000000000^770"CopyPNGFile build/Debug-iphoneos/TableViewPull.app/blackArrow.png Resources/blackArrow.png    cd "/Users/luke/Git Projects/EGOTableViewPullRefresh/Demo/TableViewPull"    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/PrivatePlugIns/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" "/Users/luke/Git Projects/EGOTableViewPullRefresh/Demo/TableViewPull/Resources/blackArrow.png" "/Users/luke/Git Projects/EGOTableViewPullRefresh/Demo/TableViewPull/build/Debug-iphoneos/TableViewPull.app/blackArrow.png"36"FB7AE9DE-0199-4551-BC4E-C61766BCDAB6-
+
+CCopyPNGFile "/Users/luke/Git Projects/EGOTableViewPullRefresh/Demo/TableViewPull/build/Debug-iphoneos/TableViewPull.app/blackArrow@2x.png" Resources/blackArrow@2x.png
+s365930075.500425
+e365930075.634746
+r1
+xCopyPNGFile
+x/Users/luke/Git Projects/EGOTableViewPullRefresh/Demo/TableViewPull/build/Debug-iphoneos/TableViewPull.app/blackArrow@2x.png
+xResources/blackArrow@2x.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection96"CopyPNGFile build/Debug-iphoneos/TableViewPull.app/blackArrow@2x.png Resources/blackArrow@2x.png1e33805ba6cfb541^957ea25ba6cfb541^---0#0#0#-19%DVTDocumentLocation2@113"file://localhost/Users/luke/Git%20Projects/EGOTableViewPullRefresh/Demo/TableViewPull/Resources/blackArrow@2x.png0000000000000000^786"CopyPNGFile "build/Debug-iphoneos/TableViewPull.app/blackArrow@2x.png" "Resources/blackArrow@2x.png"    cd "/Users/luke/Git Projects/EGOTableViewPullRefresh/Demo/TableViewPull"    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/PrivatePlugIns/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" "/Users/luke/Git Projects/EGOTableViewPullRefresh/Demo/TableViewPull/Resources/blackArrow@2x.png" "/Users/luke/Git Projects/EGOTableViewPullRefresh/Demo/TableViewPull/build/Debug-iphoneos/TableViewPull.app/blackArrow@2x.png"36"3DA70B62-F7F6-43DE-9C16-68B613E6F432-
+
+CCopyPNGFile "/Users/luke/Git Projects/EGOTableViewPullRefresh/Demo/TableViewPull/build/Debug-iphoneos/TableViewPull.app/blueArrow.png" Resources/blueArrow.png
+s365930075.500335
+e365930075.630937
+r1
+xCopyPNGFile
+x/Users/luke/Git Projects/EGOTableViewPullRefresh/Demo/TableViewPull/build/Debug-iphoneos/TableViewPull.app/blueArrow.png
+xResources/blueArrow.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection88"CopyPNGFile build/Debug-iphoneos/TableViewPull.app/blueArrow.png Resources/blueArrow.pngdc2a805ba6cfb541^3885a15ba6cfb541^---0#0#0#-19%DVTDocumentLocation2@109"file://localhost/Users/luke/Git%20Projects/EGOTableViewPullRefresh/Demo/TableViewPull/Resources/blueArrow.png0000000000000000^766"CopyPNGFile build/Debug-iphoneos/TableViewPull.app/blueArrow.png Resources/blueArrow.png    cd "/Users/luke/Git Projects/EGOTableViewPullRefresh/Demo/TableViewPull"    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/PrivatePlugIns/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" "/Users/luke/Git Projects/EGOTableViewPullRefresh/Demo/TableViewPull/Resources/blueArrow.png" "/Users/luke/Git Projects/EGOTableViewPullRefresh/Demo/TableViewPull/build/Debug-iphoneos/TableViewPull.app/blueArrow.png"36"F39FF20F-D3DB-4902-9705-FEC3A05E9FC2-
+
+CCopyPNGFile "/Users/luke/Git Projects/EGOTableViewPullRefresh/Demo/TableViewPull/build/Debug-iphoneos/TableViewPull.app/blueArrow@2x.png" Resources/blueArrow@2x.png
+s365930075.500417
+e365930075.628838
+r1
+xCopyPNGFile
+x/Users/luke/Git Projects/EGOTableViewPullRefresh/Demo/TableViewPull/build/Debug-iphoneos/TableViewPull.app/blueArrow@2x.png
+xResources/blueArrow@2x.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection94"CopyPNGFile build/Debug-iphoneos/TableViewPull.app/blueArrow@2x.png Resources/blueArrow@2x.pngf530805ba6cfb541^9a06a15ba6cfb541^---0#0#0#-19%DVTDocumentLocation2@112"file://localhost/Users/luke/Git%20Projects/EGOTableViewPullRefresh/Demo/TableViewPull/Resources/blueArrow@2x.png0000000000000000^782"CopyPNGFile "build/Debug-iphoneos/TableViewPull.app/blueArrow@2x.png" "Resources/blueArrow@2x.png"    cd "/Users/luke/Git Projects/EGOTableViewPullRefresh/Demo/TableViewPull"    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/PrivatePlugIns/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" "/Users/luke/Git Projects/EGOTableViewPullRefresh/Demo/TableViewPull/Resources/blueArrow@2x.png" "/Users/luke/Git Projects/EGOTableViewPullRefresh/Demo/TableViewPull/build/Debug-iphoneos/TableViewPull.app/blueArrow@2x.png"36"AD7A0105-2F9B-4EC1-8EA3-152ED01AE2B4-
+
+CCopyPNGFile "/Users/luke/Git Projects/EGOTableViewPullRefresh/Demo/TableViewPull/build/Debug-iphoneos/TableViewPull.app/grayArrow.png" Resources/grayArrow.png
+s365930075.576791
+e365930075.632078
+r1
+xCopyPNGFile
+x/Users/luke/Git Projects/EGOTableViewPullRefresh/Demo/TableViewPull/build/Debug-iphoneos/TableViewPull.app/grayArrow.png
+xResources/grayArrow.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection88"CopyPNGFile build/Debug-iphoneos/TableViewPull.app/grayArrow.png Resources/grayArrow.png3eea935ba6cfb541^a2d1a15ba6cfb541^---0#0#0#-19%DVTDocumentLocation2@109"file://localhost/Users/luke/Git%20Projects/EGOTableViewPullRefresh/Demo/TableViewPull/Resources/grayArrow.png0000000000000000^766"CopyPNGFile build/Debug-iphoneos/TableViewPull.app/grayArrow.png Resources/grayArrow.png    cd "/Users/luke/Git Projects/EGOTableViewPullRefresh/Demo/TableViewPull"    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/PrivatePlugIns/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" "/Users/luke/Git Projects/EGOTableViewPullRefresh/Demo/TableViewPull/Resources/grayArrow.png" "/Users/luke/Git Projects/EGOTableViewPullRefresh/Demo/TableViewPull/build/Debug-iphoneos/TableViewPull.app/grayArrow.png"36"094F3D3F-2222-43DB-81A2-AA8419F5D749-
+
+CCopyPNGFile "/Users/luke/Git Projects/EGOTableViewPullRefresh/Demo/TableViewPull/build/Debug-iphoneos/TableViewPull.app/grayArrow@2x.png" Resources/grayArrow@2x.png
+s365930075.500363
+e365930075.631613
+r1
+xCopyPNGFile
+x/Users/luke/Git Projects/EGOTableViewPullRefresh/Demo/TableViewPull/build/Debug-iphoneos/TableViewPull.app/grayArrow@2x.png
+xResources/grayArrow@2x.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection94"CopyPNGFile build/Debug-iphoneos/TableViewPull.app/grayArrow@2x.png Resources/grayArrow@2x.png302b805ba6cfb541^eab1a15ba6cfb541^---0#0#0#-19%DVTDocumentLocation2@112"file://localhost/Users/luke/Git%20Projects/EGOTableViewPullRefresh/Demo/TableViewPull/Resources/grayArrow@2x.png0000000000000000^782"CopyPNGFile "build/Debug-iphoneos/TableViewPull.app/grayArrow@2x.png" "Resources/grayArrow@2x.png"    cd "/Users/luke/Git Projects/EGOTableViewPullRefresh/Demo/TableViewPull"    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/PrivatePlugIns/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" "/Users/luke/Git Projects/EGOTableViewPullRefresh/Demo/TableViewPull/Resources/grayArrow@2x.png" "/Users/luke/Git Projects/EGOTableViewPullRefresh/Demo/TableViewPull/build/Debug-iphoneos/TableViewPull.app/grayArrow@2x.png"36"9F947340-87CE-4FE5-8F2D-07E95E6A871A-
+
+CCopyPNGFile "/Users/luke/Git Projects/EGOTableViewPullRefresh/Demo/TableViewPull/build/Debug-iphoneos/TableViewPull.app/whiteArrow.png" Resources/whiteArrow.png
+s365930075.500332
+e365930075.626328
+r1
+xCopyPNGFile
+x/Users/luke/Git Projects/EGOTableViewPullRefresh/Demo/TableViewPull/build/Debug-iphoneos/TableViewPull.app/whiteArrow.png
+xResources/whiteArrow.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection90"CopyPNGFile build/Debug-iphoneos/TableViewPull.app/whiteArrow.png Resources/whiteArrow.pnge129805ba6cfb541^5056a05ba6cfb541^---0#0#0#-19%DVTDocumentLocation2@110"file://localhost/Users/luke/Git%20Projects/EGOTableViewPullRefresh/Demo/TableViewPull/Resources/whiteArrow.png0000000000000000^770"CopyPNGFile build/Debug-iphoneos/TableViewPull.app/whiteArrow.png Resources/whiteArrow.png    cd "/Users/luke/Git Projects/EGOTableViewPullRefresh/Demo/TableViewPull"    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/PrivatePlugIns/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" "/Users/luke/Git Projects/EGOTableViewPullRefresh/Demo/TableViewPull/Resources/whiteArrow.png" "/Users/luke/Git Projects/EGOTableViewPullRefresh/Demo/TableViewPull/build/Debug-iphoneos/TableViewPull.app/whiteArrow.png"36"F442A240-45D5-46D2-8CBB-8D18B4DEB43B-
+
+CCopyPNGFile "/Users/luke/Git Projects/EGOTableViewPullRefresh/Demo/TableViewPull/build/Debug-iphoneos/TableViewPull.app/whiteArrow@2x.png" Resources/whiteArrow@2x.png
+s365930075.578362
+e365930075.650217
+r1
+xCopyPNGFile
+x/Users/luke/Git Projects/EGOTableViewPullRefresh/Demo/TableViewPull/build/Debug-iphoneos/TableViewPull.app/whiteArrow@2x.png
+xResources/whiteArrow@2x.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection96"CopyPNGFile build/Debug-iphoneos/TableViewPull.app/whiteArrow@2x.png Resources/whiteArrow@2x.png9623945ba6cfb541^3675a65ba6cfb541^---0#0#0#-19%DVTDocumentLocation2@113"file://localhost/Users/luke/Git%20Projects/EGOTableViewPullRefresh/Demo/TableViewPull/Resources/whiteArrow@2x.png0000000000000000^786"CopyPNGFile "build/Debug-iphoneos/TableViewPull.app/whiteArrow@2x.png" "Resources/whiteArrow@2x.png"    cd "/Users/luke/Git Projects/EGOTableViewPullRefresh/Demo/TableViewPull"    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/PrivatePlugIns/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" "/Users/luke/Git Projects/EGOTableViewPullRefresh/Demo/TableViewPull/Resources/whiteArrow@2x.png" "/Users/luke/Git Projects/EGOTableViewPullRefresh/Demo/TableViewPull/build/Debug-iphoneos/TableViewPull.app/whiteArrow@2x.png"36"46CB7989-C2AF-46C4-83FB-C0BAE462CBF2-
+
+CCpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/ResourceRules.plist build/Debug-iphoneos/TableViewPull.app/ResourceRules.plist
+s365930075.487193
+e365930075.490991
+r1
+xCpResource
+x/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/ResourceRules.plist
+xbuild/Debug-iphoneos/TableViewPull.app/ResourceRules.plist
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection63"Copy build/Debug-iphoneos/TableViewPull.app/ResourceRules.plist70d27c5ba6cfb541^cfbb7d5ba6cfb541^---0#0#0#-19%DVTDocumentLocation2@144"file://localhost/Users/luke/Git%20Projects/EGOTableViewPullRefresh/Demo/TableViewPull/build/Debug-iphoneos/TableViewPull.app/ResourceRules.plist000000000080d041^905"CpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/ResourceRules.plist build/Debug-iphoneos/TableViewPull.app/ResourceRules.plist    cd "/Users/luke/Git Projects/EGOTableViewPullRefresh/Demo/TableViewPull"    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/ResourceRules.plist "/Users/luke/Git Projects/EGOTableViewPullRefresh/Demo/TableViewPull/build/Debug-iphoneos/TableViewPull.app"36"326E22ED-D4F2-4C86-AE30-0A1C3136B77E-
+
 CCpResource build/Debug-iphoneos/TableViewPull.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
 r0
 
@@ -355,13 +811,53 @@ r0
 CGenerateDSYMFile "/Users/devin/Documents/iOS Dev/EGOTableViewPullRefresh/Demo/TableViewPull/build/Debug-iphoneos/TableViewPull.app.dSYM" "/Users/devin/Documents/iOS Dev/EGOTableViewPullRefresh/Demo/TableViewPull/build/Debug-iphoneos/TableViewPull.app/TableViewPull"
 r0
 
+CGenerateDSYMFile "/Users/luke/Git Projects/EGOTableViewPullRefresh/Demo/TableViewPull/build/Debug-iphoneos/TableViewPull.app.dSYM" "/Users/luke/Git Projects/EGOTableViewPullRefresh/Demo/TableViewPull/build/Debug-iphoneos/TableViewPull.app/TableViewPull"
+s365930201.306042
+e365930201.340583
+r1
+xGenerateDSYMFile
+x/Users/luke/Git Projects/EGOTableViewPullRefresh/Demo/TableViewPull/build/Debug-iphoneos/TableViewPull.app.dSYM
+x/Users/luke/Git Projects/EGOTableViewPullRefresh/Demo/TableViewPull/build/Debug-iphoneos/TableViewPull.app/TableViewPull
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection122"Generating /Users/luke/Git Projects/EGOTableViewPullRefresh/Demo/TableViewPull/build/Debug-iphoneos/TableViewPull.app.dSYMc2684ed9a6cfb541^ec2f57d9a6cfb541^---0#0#0#-19%DVTDocumentLocation2@129"file://localhost/Users/luke/Git%20Projects/EGOTableViewPullRefresh/Demo/TableViewPull/build/Debug-iphoneos/TableViewPull.app.dSYM000000000080d041^683"GenerateDSYMFile build/Debug-iphoneos/TableViewPull.app.dSYM build/Debug-iphoneos/TableViewPull.app/TableViewPull    cd "/Users/luke/Git Projects/EGOTableViewPullRefresh/Demo/TableViewPull"    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/usr/bin/dsymutil "/Users/luke/Git Projects/EGOTableViewPullRefresh/Demo/TableViewPull/build/Debug-iphoneos/TableViewPull.app/TableViewPull" -o "/Users/luke/Git Projects/EGOTableViewPullRefresh/Demo/TableViewPull/build/Debug-iphoneos/TableViewPull.app.dSYM"36"EDACF714-6710-40BD-9632-6297A4A4BC56-
+
 CLd "/Users/devin/Documents/iOS Dev/EGOTableViewPullRefresh/Demo/TableViewPull/build/TableViewPull.build/Debug-iphoneos/TableViewPull.build/Objects-normal/armv6/TableViewPull" normal armv6
 r0
 
 CLd "/Users/devin/Documents/iOS Dev/EGOTableViewPullRefresh/Demo/TableViewPull/build/TableViewPull.build/Debug-iphoneos/TableViewPull.build/Objects-normal/armv7/TableViewPull" normal armv7
 r0
 
+CLd "/Users/luke/Git Projects/EGOTableViewPullRefresh/Demo/TableViewPull/build/Debug-iphoneos/TableViewPull.app/TableViewPull" normal armv7
+s365930200.966779
+e365930201.299729
+r1
+xLd
+x/Users/luke/Git Projects/EGOTableViewPullRefresh/Demo/TableViewPull/build/Debug-iphoneos/TableViewPull.app/TableViewPull
+xnormal
+xarmv7
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection125"Link /Users/luke/Git Projects/EGOTableViewPullRefresh/Demo/TableViewPull/build/Debug-iphoneos/TableViewPull.app/TableViewPull7191f7d8a6cfb541^0abb4cd9a6cfb541^---0#0#0#--1233"Ld build/Debug-iphoneos/TableViewPull.app/TableViewPull normal armv7    cd "/Users/luke/Git Projects/EGOTableViewPullRefresh/Demo/TableViewPull"    setenv IPHONEOS_DEPLOYMENT_TARGET 3.0    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch armv7 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk "-L/Users/luke/Git Projects/EGOTableViewPullRefresh/Demo/TableViewPull/build/Debug-iphoneos" "-F/Users/luke/Git Projects/EGOTableViewPullRefresh/Demo/TableViewPull/build/Debug-iphoneos" -filelist "/Users/luke/Git Projects/EGOTableViewPullRefresh/Demo/TableViewPull/build/TableViewPull.build/Debug-iphoneos/TableViewPull.build/Objects-normal/armv7/TableViewPull.LinkFileList" -dead_strip -fobjc-arc -miphoneos-version-min=3.0 -framework Foundation -framework UIKit -framework CoreGraphics -framework QuartzCore -o "/Users/luke/Git Projects/EGOTableViewPullRefresh/Demo/TableViewPull/build/Debug-iphoneos/TableViewPull.app/TableViewPull"36"C0C4C5CC-F379-46F2-A84A-3809FBF4BCC4-
+
 CProcessInfoPlistFile "/Users/devin/Documents/iOS Dev/EGOTableViewPullRefresh/Demo/TableViewPull/build/Debug-iphoneos/TableViewPull.app/Info.plist" Resources/TableViewPull-Info.plist
+r0
+
+CProcessInfoPlistFile "/Users/luke/Git Projects/EGOTableViewPullRefresh/Demo/TableViewPull/build/Debug-iphoneos/TableViewPull.app/Info.plist" Resources/TableViewPull-Info.plist
+s365930075.487193
+e365930075.492609
+r1
+xProcessInfoPlistFile
+x/Users/luke/Git Projects/EGOTableViewPullRefresh/Demo/TableViewPull/build/Debug-iphoneos/TableViewPull.app/Info.plist
+xResources/TableViewPull-Info.plist
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection42"Process Resources/TableViewPull-Info.plistc4d27c5ba6cfb541^47567e5ba6cfb541^---0#0#0#-19%DVTDocumentLocation2@120"file://localhost/Users/luke/Git%20Projects/EGOTableViewPullRefresh/Demo/TableViewPull/Resources/TableViewPull-Info.plist0000000000000000^890"ProcessInfoPlistFile build/Debug-iphoneos/TableViewPull.app/Info.plist Resources/TableViewPull-Info.plist    cd "/Users/luke/Git Projects/EGOTableViewPullRefresh/Demo/TableViewPull"    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility Resources/TableViewPull-Info.plist -genpkginfo "/Users/luke/Git Projects/EGOTableViewPullRefresh/Demo/TableViewPull/build/Debug-iphoneos/TableViewPull.app/PkgInfo" -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile "/Users/luke/Git Projects/EGOTableViewPullRefresh/Demo/TableViewPull/build/Debug-iphoneos/TableViewPull.app/ResourceRules.plist" -o "/Users/luke/Git Projects/EGOTableViewPullRefresh/Demo/TableViewPull/build/Debug-iphoneos/TableViewPull.app/Info.plist"36"3376AEBA-B506-4C87-BA64-B88660485354-
+
+CProcessPCH /Users/luke/Library/Developer/Xcode/DerivedData/TableViewPull-cazazbgvbxthibctqvyihjwdidho/Index/PrecompiledHeaders/TableViewPull_Prefix-djvnuwfhfocykycqwaollkqeqysc_ast/TableViewPull_Prefix.pch.pth TableViewPull_Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH /Users/luke/Library/Developer/Xcode/DerivedData/TableViewPull-cazazbgvbxthibctqvyihjwdidho/Index/PrecompiledHeaders/TableViewPull_Prefix-eetwfefsubiqwlamgzftyacglzjd_ast/TableViewPull_Prefix.pch.pth TableViewPull_Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH /Users/luke/Library/Developer/Xcode/DerivedData/TableViewPull-cazazbgvbxthibctqvyihjwdidho/Index/PrecompiledHeaders/TableViewPull_Prefix-eirmjgaqovtkdtbpbqwqtulwlyux_ast/TableViewPull_Prefix.pch.pth TableViewPull_Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH /Users/luke/Library/Developer/Xcode/DerivedData/TableViewPull-cazazbgvbxthibctqvyihjwdidho/Index/PrecompiledHeaders/TableViewPull_Prefix-fdahpiwrbaxiajfkhpdyontpjrog_ast/TableViewPull_Prefix.pch.pth TableViewPull_Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
 r0
 
 CProcessPCH /var/folders/EN/ENmrDakkEzOaao7-bah5i++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TableViewPull_Prefix-cswrzaqqbyqzxyfddadodzjsnmwy/TableViewPull_Prefix.pch.gch TableViewPull_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
@@ -370,12 +866,80 @@ r0
 CProcessPCH /var/folders/EN/ENmrDakkEzOaao7-bah5i++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TableViewPull_Prefix-gkfnvogmweunhhfaxiqxuzstqpxw/TableViewPull_Prefix.pch.gch TableViewPull_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
 r0
 
+CProcessPCH /var/folders/yp/z9ztqk2n64xb6ndsckqtgjyh0000gr/C/com.apple.Xcode.504/SharedPrecompiledHeaders/TableViewPull_Prefix-bdfaujrmxsbzuqcxlkfbleciqoto/TableViewPull_Prefix.pch.pth TableViewPull_Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s365930075.657674
+e365930076.157440
+r1
+xProcessPCH
+x/var/folders/yp/z9ztqk2n64xb6ndsckqtgjyh0000gr/C/com.apple.Xcode.504/SharedPrecompiledHeaders/TableViewPull_Prefix-bdfaujrmxsbzuqcxlkfbleciqoto/TableViewPull_Prefix.pch.pth
+xTableViewPull_Prefix.pch
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection35"Precompile TableViewPull_Prefix.pchb379a85ba6cfb541^ba4d285ca6cfb541^---0#0#0#-19%DVTDocumentLocation2@110"file://localhost/Users/luke/Git%20Projects/EGOTableViewPullRefresh/Demo/TableViewPull/TableViewPull_Prefix.pch0000000000000000^3539"ProcessPCH /var/folders/yp/z9ztqk2n64xb6ndsckqtgjyh0000gr/C/com.apple.Xcode.504/SharedPrecompiledHeaders/TableViewPull_Prefix-bdfaujrmxsbzuqcxlkfbleciqoto/TableViewPull_Prefix.pch.pth TableViewPull_Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/luke/Git Projects/EGOTableViewPullRefresh/Demo/TableViewPull"    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch armv7 -fmessage-length=0 -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -Wprotocol -Wdeprecated-declarations -fvisibility=hidden -Wno-conversion -Wno-sign-conversion -mthumb "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -ccc-arcmt-check -miphoneos-version-min=3.0 -iquote "/Users/luke/Git Projects/EGOTableViewPullRefresh/Demo/TableViewPull/build/TableViewPull.build/Debug-iphoneos/TableViewPull.build/TableViewPull-generated-files.hmap" "-I/Users/luke/Git Projects/EGOTableViewPullRefresh/Demo/TableViewPull/build/TableViewPull.build/Debug-iphoneos/TableViewPull.build/TableViewPull-own-target-headers.hmap" "-I/Users/luke/Git Projects/EGOTableViewPullRefresh/Demo/TableViewPull/build/TableViewPull.build/Debug-iphoneos/TableViewPull.build/TableViewPull-all-target-headers.hmap" -iquote "/Users/luke/Git Projects/EGOTableViewPullRefresh/Demo/TableViewPull/build/TableViewPull.build/Debug-iphoneos/TableViewPull.build/TableViewPull-project-headers.hmap" "-I/Users/luke/Git Projects/EGOTableViewPullRefresh/Demo/TableViewPull/build/Debug-iphoneos/include" "-I/Users/luke/Git Projects/EGOTableViewPullRefresh/Demo/TableViewPull/build/TableViewPull.build/Debug-iphoneos/TableViewPull.build/DerivedSources/armv7" "-I/Users/luke/Git Projects/EGOTableViewPullRefresh/Demo/TableViewPull/build/TableViewPull.build/Debug-iphoneos/TableViewPull.build/DerivedSources" "-F/Users/luke/Git Projects/EGOTableViewPullRefresh/Demo/TableViewPull/build/Debug-iphoneos" --serialize-diagnostics /var/folders/yp/z9ztqk2n64xb6ndsckqtgjyh0000gr/C/com.apple.Xcode.504/SharedPrecompiledHeaders/TableViewPull_Prefix-bdfaujrmxsbzuqcxlkfbleciqoto/TableViewPull_Prefix.pch.dia -c "/Users/luke/Git Projects/EGOTableViewPullRefresh/Demo/TableViewPull/TableViewPull_Prefix.pch" -o /var/folders/yp/z9ztqk2n64xb6ndsckqtgjyh0000gr/C/com.apple.Xcode.504/SharedPrecompiledHeaders/TableViewPull_Prefix-bdfaujrmxsbzuqcxlkfbleciqoto/TableViewPull_Prefix.pch.pth -MMD -MT dependencies -MF /var/folders/yp/z9ztqk2n64xb6ndsckqtgjyh0000gr/C/com.apple.Xcode.504/SharedPrecompiledHeaders/TableViewPull_Prefix-bdfaujrmxsbzuqcxlkfbleciqoto/TableViewPull_Prefix.pch.d36"8049B1C8-187F-4BCF-9FE8-F8D4C60C7D63-
+
+CProcessPCH /var/folders/yp/z9ztqk2n64xb6ndsckqtgjyh0000gr/C/com.apple.Xcode.504/SharedPrecompiledHeaders/TableViewPull_Prefix-bhbgvkflpdewmlastzcxcjnybxfq/TableViewPull_Prefix.pch.pth TableViewPull_Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s365930078.950397
+e365930079.619223
+r1
+xProcessPCH
+x/var/folders/yp/z9ztqk2n64xb6ndsckqtgjyh0000gr/C/com.apple.Xcode.504/SharedPrecompiledHeaders/TableViewPull_Prefix-bhbgvkflpdewmlastzcxcjnybxfq/TableViewPull_Prefix.pch.pth
+xTableViewPull_Prefix.pch
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection35"Precompile TableViewPull_Prefix.pchaca8f55ea6cfb541^01859e5fa6cfb541^---0#0#0#-19%DVTDocumentLocation2@110"file://localhost/Users/luke/Git%20Projects/EGOTableViewPullRefresh/Demo/TableViewPull/TableViewPull_Prefix.pch0000000000000000^3698"ProcessPCH /var/folders/yp/z9ztqk2n64xb6ndsckqtgjyh0000gr/C/com.apple.Xcode.504/SharedPrecompiledHeaders/TableViewPull_Prefix-bhbgvkflpdewmlastzcxcjnybxfq/TableViewPull_Prefix.pch.pth TableViewPull_Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/luke/Git Projects/EGOTableViewPullRefresh/Demo/TableViewPull"    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch armv7 -fmessage-length=0 -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -Wprotocol -Wdeprecated-declarations -fvisibility=hidden -Wno-conversion -Wno-sign-conversion -mthumb "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -ccc-arcmt-migrate "/Users/luke/Git Projects/EGOTableViewPullRefresh/Demo/TableViewPull/build/TableViewPull.build/Debug-iphoneos/TableViewPull.build/TableViewPull-arc.migrate" -miphoneos-version-min=3.0 -iquote "/Users/luke/Git Projects/EGOTableViewPullRefresh/Demo/TableViewPull/build/TableViewPull.build/Debug-iphoneos/TableViewPull.build/TableViewPull-generated-files.hmap" "-I/Users/luke/Git Projects/EGOTableViewPullRefresh/Demo/TableViewPull/build/TableViewPull.build/Debug-iphoneos/TableViewPull.build/TableViewPull-own-target-headers.hmap" "-I/Users/luke/Git Projects/EGOTableViewPullRefresh/Demo/TableViewPull/build/TableViewPull.build/Debug-iphoneos/TableViewPull.build/TableViewPull-all-target-headers.hmap" -iquote "/Users/luke/Git Projects/EGOTableViewPullRefresh/Demo/TableViewPull/build/TableViewPull.build/Debug-iphoneos/TableViewPull.build/TableViewPull-project-headers.hmap" "-I/Users/luke/Git Projects/EGOTableViewPullRefresh/Demo/TableViewPull/build/Debug-iphoneos/include" "-I/Users/luke/Git Projects/EGOTableViewPullRefresh/Demo/TableViewPull/build/TableViewPull.build/Debug-iphoneos/TableViewPull.build/DerivedSources/armv7" "-I/Users/luke/Git Projects/EGOTableViewPullRefresh/Demo/TableViewPull/build/TableViewPull.build/Debug-iphoneos/TableViewPull.build/DerivedSources" "-F/Users/luke/Git Projects/EGOTableViewPullRefresh/Demo/TableViewPull/build/Debug-iphoneos" --serialize-diagnostics /var/folders/yp/z9ztqk2n64xb6ndsckqtgjyh0000gr/C/com.apple.Xcode.504/SharedPrecompiledHeaders/TableViewPull_Prefix-bhbgvkflpdewmlastzcxcjnybxfq/TableViewPull_Prefix.pch.dia -c "/Users/luke/Git Projects/EGOTableViewPullRefresh/Demo/TableViewPull/TableViewPull_Prefix.pch" -o /var/folders/yp/z9ztqk2n64xb6ndsckqtgjyh0000gr/C/com.apple.Xcode.504/SharedPrecompiledHeaders/TableViewPull_Prefix-bhbgvkflpdewmlastzcxcjnybxfq/TableViewPull_Prefix.pch.pth -MMD -MT dependencies -MF /var/folders/yp/z9ztqk2n64xb6ndsckqtgjyh0000gr/C/com.apple.Xcode.504/SharedPrecompiledHeaders/TableViewPull_Prefix-bhbgvkflpdewmlastzcxcjnybxfq/TableViewPull_Prefix.pch.d36"C30D39D8-141E-4F17-B2E3-55D013EC3CD2-
+
+CProcessPCH /var/folders/yp/z9ztqk2n64xb6ndsckqtgjyh0000gr/C/com.apple.Xcode.504/SharedPrecompiledHeaders/TableViewPull_Prefix-ccujqiyehybqtreuqqeaephrbnog/TableViewPull_Prefix.pch.pth TableViewPull_Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CProcessPCH /var/folders/yp/z9ztqk2n64xb6ndsckqtgjyh0000gr/C/com.apple.Xcode.504/SharedPrecompiledHeaders/TableViewPull_Prefix-eyzlesnvlhlpvudmyagwzxovzetv/TableViewPull_Prefix.pch.pth TableViewPull_Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s365930200.561921
+e365930200.833775
+r1
+xProcessPCH
+x/var/folders/yp/z9ztqk2n64xb6ndsckqtgjyh0000gr/C/com.apple.Xcode.504/SharedPrecompiledHeaders/TableViewPull_Prefix-eyzlesnvlhlpvudmyagwzxovzetv/TableViewPull_Prefix.pch.pth
+xTableViewPull_Prefix.pch
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection35"Precompile TableViewPull_Prefix.pch689290d8a6cfb541^2672d5d8a6cfb541^---0#0#0#-19%DVTDocumentLocation2@110"file://localhost/Users/luke/Git%20Projects/EGOTableViewPullRefresh/Demo/TableViewPull/TableViewPull_Prefix.pch0000000000000000^3536"ProcessPCH /var/folders/yp/z9ztqk2n64xb6ndsckqtgjyh0000gr/C/com.apple.Xcode.504/SharedPrecompiledHeaders/TableViewPull_Prefix-eyzlesnvlhlpvudmyagwzxovzetv/TableViewPull_Prefix.pch.pth TableViewPull_Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/luke/Git Projects/EGOTableViewPullRefresh/Demo/TableViewPull"    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch armv7 -fmessage-length=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-conversion -Wno-sign-conversion -mthumb "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=3.0 -iquote "/Users/luke/Git Projects/EGOTableViewPullRefresh/Demo/TableViewPull/build/TableViewPull.build/Debug-iphoneos/TableViewPull.build/TableViewPull-generated-files.hmap" "-I/Users/luke/Git Projects/EGOTableViewPullRefresh/Demo/TableViewPull/build/TableViewPull.build/Debug-iphoneos/TableViewPull.build/TableViewPull-own-target-headers.hmap" "-I/Users/luke/Git Projects/EGOTableViewPullRefresh/Demo/TableViewPull/build/TableViewPull.build/Debug-iphoneos/TableViewPull.build/TableViewPull-all-target-headers.hmap" -iquote "/Users/luke/Git Projects/EGOTableViewPullRefresh/Demo/TableViewPull/build/TableViewPull.build/Debug-iphoneos/TableViewPull.build/TableViewPull-project-headers.hmap" "-I/Users/luke/Git Projects/EGOTableViewPullRefresh/Demo/TableViewPull/build/Debug-iphoneos/include" "-I/Users/luke/Git Projects/EGOTableViewPullRefresh/Demo/TableViewPull/build/TableViewPull.build/Debug-iphoneos/TableViewPull.build/DerivedSources/armv7" "-I/Users/luke/Git Projects/EGOTableViewPullRefresh/Demo/TableViewPull/build/TableViewPull.build/Debug-iphoneos/TableViewPull.build/DerivedSources" "-F/Users/luke/Git Projects/EGOTableViewPullRefresh/Demo/TableViewPull/build/Debug-iphoneos" --serialize-diagnostics /var/folders/yp/z9ztqk2n64xb6ndsckqtgjyh0000gr/C/com.apple.Xcode.504/SharedPrecompiledHeaders/TableViewPull_Prefix-eyzlesnvlhlpvudmyagwzxovzetv/TableViewPull_Prefix.pch.dia -c "/Users/luke/Git Projects/EGOTableViewPullRefresh/Demo/TableViewPull/TableViewPull_Prefix.pch" -o /var/folders/yp/z9ztqk2n64xb6ndsckqtgjyh0000gr/C/com.apple.Xcode.504/SharedPrecompiledHeaders/TableViewPull_Prefix-eyzlesnvlhlpvudmyagwzxovzetv/TableViewPull_Prefix.pch.pth -MMD -MT dependencies -MF /var/folders/yp/z9ztqk2n64xb6ndsckqtgjyh0000gr/C/com.apple.Xcode.504/SharedPrecompiledHeaders/TableViewPull_Prefix-eyzlesnvlhlpvudmyagwzxovzetv/TableViewPull_Prefix.pch.d36"5D7A5F7A-6128-47EE-93A1-01AF4088C7F9-
+
 CProcessProductPackaging "/Users/devin/Library/MobileDevice/Provisioning Profiles/C1BF0C20-972E-4EB9-A0A7-E37FC9DCADAF.mobileprovision" "/Users/devin/Documents/iOS Dev/EGOTableViewPullRefresh/Demo/TableViewPull/build/Debug-iphoneos/TableViewPull.app/embedded.mobileprovision"
 r0
+
+CProcessProductPackaging "/Users/luke/Library/MobileDevice/Provisioning Profiles/0CC0B385-21C7-489C-BB13-7F99EC4B7465.mobileprovision" "/Users/luke/Git Projects/EGOTableViewPullRefresh/Demo/TableViewPull/build/Debug-iphoneos/TableViewPull.app/embedded.mobileprovision"
+s365930076.559958
+e365930076.567657
+r1
+xProcessProductPackaging
+x/Users/luke/Library/MobileDevice/Provisioning Profiles/0CC0B385-21C7-489C-BB13-7F99EC4B7465.mobileprovision
+x/Users/luke/Git Projects/EGOTableViewPullRefresh/Demo/TableViewPull/build/Debug-iphoneos/TableViewPull.app/embedded.mobileprovision
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection197"ProcessProductPackaging "/Users/luke/Library/MobileDevice/Provisioning Profiles/0CC0B385-21C7-489C-BB13-7F99EC4B7465.mobileprovision" build/Debug-iphoneos/TableViewPull.app/embedded.mobileprovision01698f5ca6cfb541^4051915ca6cfb541^---0#0#0#-19%DVTDocumentLocation2@149"file://localhost/Users/luke/Git%20Projects/EGOTableViewPullRefresh/Demo/TableViewPull/build/Debug-iphoneos/TableViewPull.app/embedded.mobileprovision0000000000000000^746"ProcessProductPackaging "/Users/luke/Library/MobileDevice/Provisioning Profiles/0CC0B385-21C7-489C-BB13-7F99EC4B7465.mobileprovision" build/Debug-iphoneos/TableViewPull.app/embedded.mobileprovision    cd "/Users/luke/Git Projects/EGOTableViewPullRefresh/Demo/TableViewPull"    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-productPackagingUtility "/Users/luke/Library/MobileDevice/Provisioning Profiles/0CC0B385-21C7-489C-BB13-7F99EC4B7465.mobileprovision" -o "/Users/luke/Git Projects/EGOTableViewPullRefresh/Demo/TableViewPull/build/Debug-iphoneos/TableViewPull.app/embedded.mobileprovision"36"E857439D-C009-4127-9A65-606FAE8B6F0B-
+
+CProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/Entitlements.plist "/Users/luke/Git Projects/EGOTableViewPullRefresh/Demo/TableViewPull/build/TableViewPull.build/Debug-iphoneos/TableViewPull.build/TableViewPull.xcent"
+s365930076.592779
+e365930076.596004
+r1
+xProcessProductPackaging
+x/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/Entitlements.plist
+x/Users/luke/Git Projects/EGOTableViewPullRefresh/Demo/TableViewPull/build/TableViewPull.build/Debug-iphoneos/TableViewPull.build/TableViewPull.xcent
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection225"ProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/Entitlements.plist build/TableViewPull.build/Debug-iphoneos/TableViewPull.build/TableViewPull.xcent9ed0975ca6cfb541^d993985ca6cfb541^---0#0#0#-19%DVTDocumentLocation2@166"file://localhost/Users/luke/Git%20Projects/EGOTableViewPullRefresh/Demo/TableViewPull/build/TableViewPull.build/Debug-iphoneos/TableViewPull.build/TableViewPull.xcent000000000080d041^828"ProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/Entitlements.plist build/TableViewPull.build/Debug-iphoneos/TableViewPull.build/TableViewPull.xcent    cd "/Users/luke/Git Projects/EGOTableViewPullRefresh/Demo/TableViewPull"    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-productPackagingUtility /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/Entitlements.plist -entitlements -format xml -o "/Users/luke/Git Projects/EGOTableViewPullRefresh/Demo/TableViewPull/build/TableViewPull.build/Debug-iphoneos/TableViewPull.build/TableViewPull.xcent"36"E97CF54C-FF82-4DA9-9AC3-8C3E231DCD66-
 
 CProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist "/Users/devin/Documents/iOS Dev/EGOTableViewPullRefresh/Demo/TableViewPull/build/TableViewPull.build/Debug-iphoneos/TableViewPull.build/TableViewPull.xcent"
 r0
 
 CTouch "/Users/devin/Documents/iOS Dev/EGOTableViewPullRefresh/Demo/TableViewPull/build/Debug-iphoneos/TableViewPull.app"
 r0
+
+CTouch "/Users/luke/Git Projects/EGOTableViewPullRefresh/Demo/TableViewPull/build/Debug-iphoneos/TableViewPull.app"
+s365930201.364347
+e365930201.368467
+r1
+xTouch
+x/Users/luke/Git Projects/EGOTableViewPullRefresh/Demo/TableViewPull/build/Debug-iphoneos/TableViewPull.app
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection112"Touch /Users/luke/Git Projects/EGOTableViewPullRefresh/Demo/TableViewPull/build/Debug-iphoneos/TableViewPull.appa8545dd9a6cfb541^50545ed9a6cfb541^---0#0#0#--441"Touch build/Debug-iphoneos/TableViewPull.app    cd "/Users/luke/Git Projects/EGOTableViewPullRefresh/Demo/TableViewPull"    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c "/Users/luke/Git Projects/EGOTableViewPullRefresh/Demo/TableViewPull/build/Debug-iphoneos/TableViewPull.app"36"CC556DF3-74AC-4414-B39D-D8E706407833-
 
